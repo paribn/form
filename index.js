@@ -37,6 +37,8 @@ function AddUser(e) {
 }
 
 
+
+
 let updateId = null;
 
 document.addEventListener("click", function (e) {
@@ -72,7 +74,6 @@ function UpdateUser(e) {
     updateId = null;
 
 }
-
 
 
 
@@ -123,4 +124,31 @@ function List() {
 
 
 
+// document.addEventListener("DOMContentLoaded", function () {
 
+//     let storedUserData =localStorage.setItem('userForm');
+
+//     if(storedUserData){
+//         let userData = JSON.parse(storedUserData);
+//         document.getElementById('fullName').value=userData.fullName;
+//         document.getElementById('age').value=userData.age;
+//         document.getElementById('details').value=userData.details;
+//     }
+
+//     document.getElementById('userForm').addEventListener('submit',function(e){
+//         e.preventDefault();
+
+//         let fullName=document.setItem('fullName').value;
+//         let age = document.setItem('age').value;
+//         let details = documenet.setItem('details').value;
+
+//         let userData={
+//             fullName,
+//             age,
+//             details
+//         };
+
+//         localStorage.setItem('userForm',JSON.stringify(userData));
+//     });
+
+// })
